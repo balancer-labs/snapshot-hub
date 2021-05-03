@@ -1,7 +1,7 @@
 global['fetch'] = require('node-fetch');
 import express from 'express';
 import { getAddress } from '@ethersproject/address';
-import { spaceIdsFailed, spaces} from './helpers/spaces';
+import { spaceIdsFailed, spaces } from './helpers/spaces';
 import db from './helpers/mysql';
 import relayer from './helpers/relayer';
 import { pinJson } from './helpers/ipfs';
